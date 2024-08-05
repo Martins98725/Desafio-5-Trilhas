@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passaporte de um passageiro</title>
+    <link rel="stylesheet" href="css/alcantra.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+
+    <script src="./js/scripts.js" defer></script>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="nomesite">
+            <div class="logo-img"><img class="foto" src="img/passaporte.png" alt="foto de um passaporte"></div>
+            <div class="nomesite_tex">
+                <h1 class="text1">Passaporte de um passageiro</h1>
+            </div>
+        </div>
+        <div class="menu">
+            <nav>
+                <a href="home.html"> Home</a>
+                <a href="#map"> Mapa</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="apresentacao_texto">
+                <div class="logo-alc"><img class="foto-alc" src="img/carimbo_alcantra-removebg-preview.png"
+                        alt="foto de um passaporte"></div>
+                <H1 class="apresentacao_titulo_"> <strong class="texto_incent"></strong>Conheça Alcântara!</H1>
+            </div>
+            <div class="alinhamentoft">
+                <img src="img/alcantraimg1-removebg-preview.png" alt="">
+                <img src="img/alcantraimg2-removebg-preview.png" alt="">
+                <img src="img/alcantraimg3-removebg-preview.png" alt="">
+                <div>
+                    <div class="caixa-container">
+                        <div class="texto-caixatexto3">
+                            Conhecida como "A cidade que o tempo não apagou", Alcântara preserva um
+                            patrimônio cultural e arquitetônico riquíssimo,
+                            que remonta aos tempos coloniais e escravocratas do Brasil.
+                            Cada esquina conta uma parte da história desse lugar singular, e caminhar por suas ruas é
+                            como
+                            fazer
+                            uma viagem no tempo, mergulhando em um passado repleto de memórias e emoções.
+                        </div>
+                    </div>
+                    <a class="acesse-alc" href="#map">Clique aqui para saber a sua localização!</a>
+                    <div class="caixa-container">
+                        <div class="texto-caixadica">
+                            Uma dica preciosa para quem visitar Alcântara, no Maranhão, é reservar um
+                            tempinho
+                            para explorar os casarões históricos da cidade. Essas construções centenárias são
+                            verdadeiras
+                            relíquias
+                            arquitetônicas que contam parte da rica história dessa região. Ao caminhar pelas ruas de
+                            Alcântara,
+                            não
+                            deixe de admirar a beleza desses casarões coloniais, muitos deles preservados com todo o seu
+                            esplendor
+                            original.
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        </div>
+        <div id="destinoContainer" class="alinhamento"></div>
+        <h1 id="nomeDestino"></h1>
+        <div id="descricaoDestino"></div>
+        <img id="imagemDestino" alt="Imagem do destino">
+        <div id="atrativos"></div>
+        <div id="detalhesDestino"></div>
+
+        <div id="map" style="height: 500px;"></div>
+        <script src="js/mapAlcantara.js"></script>
+    </main>
+
+</body>
+
+</html>
