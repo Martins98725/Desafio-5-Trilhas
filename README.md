@@ -3,10 +3,13 @@
 Projeto é um CRUD padrão que tem destinos e atrativos
 
 
-
 ## Uso do Projeto
 
-## Baixe
+## Baixe na 
+entre na pasta backend e digite
+
+cd backend e execute os comandos a baixo:
+
 npx sequelize-cli db:migrate
 npm install
 npm install --save sequelize-cli
@@ -50,7 +53,7 @@ npm install --save sequelize-cli
 
 *Endpoint:* GET http://localhost:3333/api/atrativos/id do atrativo
 
-*Descrição:* Recupera um aluno expecifico atraves do seu id  passado na URL.
+*Descrição:* Recupera um atrativos expecifico atraves do seu id  passado na URL.
 
 ### Cadastrar atrativo ###
 
