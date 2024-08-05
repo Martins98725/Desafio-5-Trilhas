@@ -5,7 +5,7 @@ Projeto é um CRUD padrão que tem destinos e atrativos
 
 ## Uso do Projeto
 
-## Baixe na 
+## Baixe 
 entre na pasta backend e digite
 
 cd backend e execute os comandos a baixo:
