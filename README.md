@@ -28,17 +28,17 @@ npm install --save sequelize-cli
 
 *Descrição:* Adiciona um destino.
 
-### Deletar curso ###
+### Deletar destino ###
 
 *Endpoint:* DELETE http://localhost:3333/api/destinos/id do destinos
 
-*Descrição:* Deleta o curso cujo o id foi passado na URL.
+*Descrição:* Deleta o destino cujo o id foi passado na URL.
 
-### Atualizar curso ###
+### Atualizar destino ###
 
 *Endpoint:* PUT http://localhost:3333/api/destinos/id do destino
 
-*Descrição:* Atualiza o curso cujo o id foi passado na URL.
+*Descrição:* Atualiza o destino cujo o id foi passado na URL.
 
 
 ### Consultar todos os atrativos ###
